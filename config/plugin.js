@@ -4,4 +4,8 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
+  ejs: {
+    enable: true,
+    package: 'egg-view-ejs',
+  }
 };
