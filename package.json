@@ -10,7 +10,8 @@
     "@bull-board/koa": "^5.18.3",
     "bullmq": "^5.7.12",
     "egg": "^3.17.5",
-    "egg-scripts": "2"
+    "egg-scripts": "2",
+    "egg-view-ejs": "^3.0.0"
   },
   "devDependencies": {
     "egg-bin": "6",

@@ -1,3 +1,4 @@
+const path = require('path')
 /* eslint valid-jsdoc: "off" */
 
 /**
@@ -19,6 +20,13 @@ module.exports = appInfo => {
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
+    view: {
+      mapping: {
+        '.ejs': 'ejs',
+      },
+      root: path.join(appInfo.baseDir, 'node_modules/@bull-board/ui/dist'),
+},
+
   };
 
   return {
